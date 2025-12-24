@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Katalog Produk online - Arif Grafika Printing</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- CSS eksternal -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- JS eksternal -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <img
+        src="logobiru.jpg"
+        alt="Logo Arif Grafika"
+      />
+      <span>Arif Grafika</span>
+    </div>
+
+    <ul class="nav-menu">
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#katalog">Katalog</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Hero Banner / Beranda -->
+    <div class="hero-banner" id="home">
+      <h1>Selamat Datang di Arif Grafika Printing</h1>
+      <p>Menyediakan produk percetakan sesuai dengan kebutuhan Anda</p>
+    </div>
+    
+
+      <!-- Search & Filter Section -->
+      <div class="search-filter-section">
+        <div class="search-box" id="katalog">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Cari berdasarkan nama produk atau kode (contoh: 001, 002...)"
+          />
+        </div>
+
+        <select id="categoryFilter" class="category-dropdown">
+          <option value="">Semua Kategori</option>
+          <option value="Pernikahan">Pernikahan</option>
+          <option value="Khitan">Khitan</option>
+          <option value="Custom">Custom</option>
+          <option value="Wisuda">Wisuda</option>
+          <option value="Ulang Tahun">Ulang Tahun</option>
+        </select>
+      </div>
+
+      <!-- Products Grid -->
+      <div id="productsContainer" class="products-grid"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="kontak">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3><i class="fas fa-map-marker-alt"></i> Alamat</h3>
+        <div class="footer-item">
+          <i class="fas fa-location-dot"></i>
+          <a href="https://share.google/ilOBRmlJ3ErSzMh8F" target="_blank">
+            Jl. Wr. Bandrek RT03/RW13 No.22 Bogor, Jawa Barat 16131, Indonesia
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3><i class="fas fa-phone"></i> Telepon</h3>
+        <div class="footer-item">
+          <i class="fas fa-phone-volume"></i>
+          <a href="tel:+628973667310">+62 8973667310</a>
+        </div>
+        <div class="footer-item">
+          <i class="fas fa-phone-volume"></i>
+          <a href="tel:+6285117052329">+62 85117052329</a>
+        </div>
+        <div class="footer-item">
+          <i class="fas fa-phone-volume"></i>
+          <a href="tel:+6281315665867">+62 81315665867</a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3><i class="fas fa-envelope"></i> Email</h3>
+        <div class="footer-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:arifgrafikaprinting@gmail.com">arifgrafikaprinting@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
